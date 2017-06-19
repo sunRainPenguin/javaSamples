@@ -1,0 +1,10239 @@
+initialPos:1 2 3 4 5 6 7 8 9 10 11 
+auxPos:
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 8 9 10 11 
+auxPos:
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 8 9 10 11 
+auxPos:2 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 8 9 10 11 
+auxPos:1 2 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 9 10 11 
+auxPos:1 2 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 8 9 10 11 
+auxPos:2 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 8 9 10 11 
+auxPos:
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 9 10 11 
+auxPos:
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 9 10 11 
+auxPos:4 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 10 11 
+auxPos:1 4 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 8 9 10 11 
+auxPos:1 4 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 8 9 10 11 
+auxPos:4 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 8 9 10 11 
+auxPos:3 4 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 8 9 10 11 
+auxPos:3 4 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 9 10 11 
+auxPos:2 3 4 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 10 11 
+auxPos:1 2 3 4 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 10 11 
+auxPos:1 2 3 4 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 10 11 
+auxPos:2 3 4 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 10 11 
+auxPos:3 4 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 10 11 
+auxPos:3 4 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 8 9 10 11 
+auxPos:4 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 10 11 
+auxPos:1 4 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 8 9 10 11 
+auxPos:1 4 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 8 9 10 11 
+auxPos:4 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 8 9 10 11 
+auxPos:
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 8 9 10 11 
+auxPos:
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 8 9 10 11 
+auxPos:2 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 10 11 
+auxPos:1 2 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 10 11 
+auxPos:1 2 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 10 11 
+auxPos:2 
+desPos:3 4 5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 10 11 
+auxPos:
+desPos:2 3 4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 10 11 
+auxPos:
+desPos:1 2 3 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:6 
+desPos:1 2 3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:1 6 
+desPos:2 3 4 5 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 10 11 
+auxPos:1 6 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 10 11 
+auxPos:6 
+desPos:3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 10 11 
+auxPos:3 6 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 10 11 
+auxPos:3 6 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:2 3 6 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:1 2 3 6 
+desPos:4 5 
+
+From peg:des	 To peg:initial
+initialPos:4 7 8 9 10 11 
+auxPos:1 2 3 6 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 10 11 
+auxPos:2 3 6 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 10 11 
+auxPos:3 6 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 10 11 
+auxPos:3 6 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 8 9 10 11 
+auxPos:6 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 10 11 
+auxPos:1 6 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 8 9 10 11 
+auxPos:1 6 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 8 9 10 11 
+auxPos:6 
+desPos:5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 8 9 10 11 
+auxPos:5 6 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 8 9 10 11 
+auxPos:5 6 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 8 9 10 11 
+auxPos:2 5 6 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 10 11 
+auxPos:1 2 5 6 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 10 11 
+auxPos:1 2 5 6 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 10 11 
+auxPos:2 5 6 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 10 11 
+auxPos:5 6 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 10 11 
+auxPos:5 6 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:4 5 6 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:1 4 5 6 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 10 11 
+auxPos:1 4 5 6 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 10 11 
+auxPos:4 5 6 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 10 11 
+auxPos:3 4 5 6 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 10 11 
+auxPos:3 4 5 6 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:2 3 4 5 6 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 10 11 
+auxPos:1 2 3 4 5 6 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:1 2 3 4 5 6 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 10 11 
+auxPos:2 3 4 5 6 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 10 11 
+auxPos:3 4 5 6 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:3 4 5 6 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 10 11 
+auxPos:4 5 6 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:1 4 5 6 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 10 11 
+auxPos:1 4 5 6 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 10 11 
+auxPos:4 5 6 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 10 11 
+auxPos:5 6 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 10 11 
+auxPos:5 6 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:2 5 6 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:1 2 5 6 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:1 2 5 6 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 10 11 
+auxPos:2 5 6 
+desPos:3 4 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 10 11 
+auxPos:5 6 
+desPos:2 3 4 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:5 6 
+desPos:1 2 3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:5 8 9 10 11 
+auxPos:6 
+desPos:1 2 3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:1 6 
+desPos:2 3 4 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 10 11 
+auxPos:1 6 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 10 11 
+auxPos:6 
+desPos:3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 10 11 
+auxPos:3 6 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 10 11 
+auxPos:3 6 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:2 3 6 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:1 2 3 6 
+desPos:4 7 
+
+From peg:des	 To peg:initial
+initialPos:4 5 8 9 10 11 
+auxPos:1 2 3 6 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 10 11 
+auxPos:2 3 6 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 10 11 
+auxPos:3 6 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 10 11 
+auxPos:3 6 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 8 9 10 11 
+auxPos:6 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 10 11 
+auxPos:1 6 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 8 9 10 11 
+auxPos:1 6 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 8 9 10 11 
+auxPos:6 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 8 9 10 11 
+auxPos:
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 8 9 10 11 
+auxPos:
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 8 9 10 11 
+auxPos:2 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 10 11 
+auxPos:1 2 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 10 11 
+auxPos:1 2 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 10 11 
+auxPos:2 
+desPos:3 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 10 11 
+auxPos:
+desPos:2 3 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 10 11 
+auxPos:
+desPos:1 2 3 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:4 
+desPos:1 2 3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:1 4 
+desPos:2 3 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 10 11 
+auxPos:1 4 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 10 11 
+auxPos:4 
+desPos:3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 10 11 
+auxPos:3 4 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 10 11 
+auxPos:3 4 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:2 3 4 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 10 11 
+auxPos:1 2 3 4 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:1 2 3 4 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 10 11 
+auxPos:2 3 4 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 10 11 
+auxPos:3 4 
+desPos:2 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:3 4 
+desPos:1 2 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 10 11 
+auxPos:4 
+desPos:1 2 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:1 4 
+desPos:2 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 10 11 
+auxPos:1 4 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 10 11 
+auxPos:4 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 10 11 
+auxPos:
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 10 11 
+auxPos:
+desPos:1 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:2 
+desPos:1 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 10 11 
+auxPos:1 2 
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:1 2 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 10 11 
+auxPos:2 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 10 11 
+auxPos:
+desPos:2 3 4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 9 10 11 
+auxPos:
+desPos:1 2 3 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:8 
+desPos:1 2 3 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 8 
+desPos:2 3 4 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 9 10 11 
+auxPos:1 8 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 10 11 
+auxPos:8 
+desPos:3 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 10 11 
+auxPos:3 8 
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 9 10 11 
+auxPos:3 8 
+desPos:1 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:2 3 8 
+desPos:1 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 2 3 8 
+desPos:4 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:4 9 10 11 
+auxPos:1 2 3 8 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 10 11 
+auxPos:2 3 8 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 10 11 
+auxPos:3 8 
+desPos:2 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:3 8 
+desPos:1 2 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 10 11 
+auxPos:8 
+desPos:1 2 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:1 8 
+desPos:2 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 10 11 
+auxPos:1 8 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 10 11 
+auxPos:8 
+desPos:5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 10 11 
+auxPos:5 8 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 10 11 
+auxPos:5 8 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:2 5 8 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:1 2 5 8 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:1 2 5 8 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 10 11 
+auxPos:2 5 8 
+desPos:3 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 10 11 
+auxPos:5 8 
+desPos:2 3 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:5 8 
+desPos:1 2 3 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:4 5 8 
+desPos:1 2 3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 4 5 8 
+desPos:2 3 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 9 10 11 
+auxPos:1 4 5 8 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 10 11 
+auxPos:4 5 8 
+desPos:3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 10 11 
+auxPos:3 4 5 8 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 9 10 11 
+auxPos:3 4 5 8 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:2 3 4 5 8 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 2 3 4 5 8 
+desPos:6 7 
+
+From peg:des	 To peg:initial
+initialPos:6 9 10 11 
+auxPos:1 2 3 4 5 8 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 10 11 
+auxPos:2 3 4 5 8 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 10 11 
+auxPos:3 4 5 8 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:3 4 5 8 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 10 11 
+auxPos:4 5 8 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:1 4 5 8 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 10 11 
+auxPos:1 4 5 8 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 10 11 
+auxPos:4 5 8 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 10 11 
+auxPos:5 8 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 10 11 
+auxPos:5 8 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:2 5 8 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:1 2 5 8 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:1 2 5 8 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 10 11 
+auxPos:2 5 8 
+desPos:3 4 7 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 10 11 
+auxPos:5 8 
+desPos:2 3 4 7 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:5 8 
+desPos:1 2 3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 9 10 11 
+auxPos:8 
+desPos:1 2 3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:1 8 
+desPos:2 3 4 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 10 11 
+auxPos:1 8 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 10 11 
+auxPos:8 
+desPos:3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 10 11 
+auxPos:3 8 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 10 11 
+auxPos:3 8 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:2 3 8 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:1 2 3 8 
+desPos:4 7 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 9 10 11 
+auxPos:1 2 3 8 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 10 11 
+auxPos:2 3 8 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 10 11 
+auxPos:3 8 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 10 11 
+auxPos:3 8 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 9 10 11 
+auxPos:8 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 10 11 
+auxPos:1 8 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 9 10 11 
+auxPos:1 8 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 9 10 11 
+auxPos:8 
+desPos:7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 9 10 11 
+auxPos:7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 9 10 11 
+auxPos:7 8 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 9 10 11 
+auxPos:2 7 8 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 10 11 
+auxPos:1 2 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 10 11 
+auxPos:1 2 7 8 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 10 11 
+auxPos:2 7 8 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 10 11 
+auxPos:7 8 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 10 11 
+auxPos:7 8 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:4 7 8 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:1 4 7 8 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 10 11 
+auxPos:1 4 7 8 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 10 11 
+auxPos:4 7 8 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 10 11 
+auxPos:3 4 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 10 11 
+auxPos:3 4 7 8 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:2 3 4 7 8 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 10 11 
+auxPos:1 2 3 4 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:1 2 3 4 7 8 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 10 11 
+auxPos:2 3 4 7 8 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 10 11 
+auxPos:3 4 7 8 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:3 4 7 8 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 10 11 
+auxPos:4 7 8 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:1 4 7 8 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 10 11 
+auxPos:1 4 7 8 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 10 11 
+auxPos:4 7 8 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 10 11 
+auxPos:7 8 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 10 11 
+auxPos:7 8 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:2 7 8 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 10 11 
+auxPos:1 2 7 8 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:1 2 7 8 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 10 11 
+auxPos:2 7 8 
+desPos:3 4 5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 10 11 
+auxPos:7 8 
+desPos:2 3 4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 9 10 11 
+auxPos:7 8 
+desPos:1 2 3 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:6 7 8 
+desPos:1 2 3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 6 7 8 
+desPos:2 3 4 5 
+
+From peg:des	 To peg:initial
+initialPos:2 9 10 11 
+auxPos:1 6 7 8 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 10 11 
+auxPos:6 7 8 
+desPos:3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 10 11 
+auxPos:3 6 7 8 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 9 10 11 
+auxPos:3 6 7 8 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:2 3 6 7 8 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 2 3 6 7 8 
+desPos:4 5 
+
+From peg:des	 To peg:initial
+initialPos:4 9 10 11 
+auxPos:1 2 3 6 7 8 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 10 11 
+auxPos:2 3 6 7 8 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 10 11 
+auxPos:3 6 7 8 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:3 6 7 8 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 10 11 
+auxPos:6 7 8 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:1 6 7 8 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 10 11 
+auxPos:1 6 7 8 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 10 11 
+auxPos:6 7 8 
+desPos:5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 10 11 
+auxPos:5 6 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 10 11 
+auxPos:5 6 7 8 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:2 5 6 7 8 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 10 11 
+auxPos:1 2 5 6 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:1 2 5 6 7 8 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 10 11 
+auxPos:2 5 6 7 8 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 10 11 
+auxPos:5 6 7 8 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 9 10 11 
+auxPos:5 6 7 8 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:4 5 6 7 8 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 4 5 6 7 8 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 9 10 11 
+auxPos:1 4 5 6 7 8 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 10 11 
+auxPos:4 5 6 7 8 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 10 11 
+auxPos:3 4 5 6 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 9 10 11 
+auxPos:3 4 5 6 7 8 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:9 10 11 
+auxPos:2 3 4 5 6 7 8 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:9 10 11 
+auxPos:1 2 3 4 5 6 7 8 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 3 4 5 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 3 4 5 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:3 4 5 6 7 8 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:3 4 5 6 7 8 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 10 11 
+auxPos:4 5 6 7 8 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 4 5 6 7 8 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 10 11 
+auxPos:1 4 5 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 10 11 
+auxPos:4 5 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 10 11 
+auxPos:5 6 7 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 10 11 
+auxPos:5 6 7 8 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 10 11 
+auxPos:2 5 6 7 8 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 2 5 6 7 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 5 6 7 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 5 6 7 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:5 6 7 8 
+desPos:2 3 4 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:5 6 7 8 
+desPos:1 2 3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 10 11 
+auxPos:6 7 8 
+desPos:1 2 3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 6 7 8 
+desPos:2 3 4 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 10 11 
+auxPos:1 6 7 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 10 11 
+auxPos:6 7 8 
+desPos:3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 10 11 
+auxPos:3 6 7 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 10 11 
+auxPos:3 6 7 8 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:2 3 6 7 8 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 2 3 6 7 8 
+desPos:4 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 10 11 
+auxPos:1 2 3 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 10 11 
+auxPos:2 3 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 10 11 
+auxPos:3 6 7 8 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:3 6 7 8 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 10 11 
+auxPos:6 7 8 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:1 6 7 8 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 10 11 
+auxPos:1 6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 10 11 
+auxPos:6 7 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 10 11 
+auxPos:7 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 10 11 
+auxPos:7 8 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:2 7 8 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:1 2 7 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:1 2 7 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 10 11 
+auxPos:2 7 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 10 11 
+auxPos:7 8 
+desPos:2 3 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:7 8 
+desPos:1 2 3 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:4 7 8 
+desPos:1 2 3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 4 7 8 
+desPos:2 3 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 10 11 
+auxPos:1 4 7 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 10 11 
+auxPos:4 7 8 
+desPos:3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 10 11 
+auxPos:3 4 7 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 10 11 
+auxPos:3 4 7 8 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:2 3 4 7 8 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 2 3 4 7 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 3 4 7 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 3 4 7 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:3 4 7 8 
+desPos:2 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:3 4 7 8 
+desPos:1 2 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 10 11 
+auxPos:4 7 8 
+desPos:1 2 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 4 7 8 
+desPos:2 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 10 11 
+auxPos:1 4 7 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 10 11 
+auxPos:4 7 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 10 11 
+auxPos:7 8 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 10 11 
+auxPos:7 8 
+desPos:1 4 5 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 10 11 
+auxPos:2 7 8 
+desPos:1 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 2 7 8 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 7 8 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 7 8 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:7 8 
+desPos:2 3 4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:7 8 
+desPos:1 2 3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:7 10 11 
+auxPos:8 
+desPos:1 2 3 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 8 
+desPos:2 3 4 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 10 11 
+auxPos:1 8 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 10 11 
+auxPos:8 
+desPos:3 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 10 11 
+auxPos:3 8 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 10 11 
+auxPos:3 8 
+desPos:1 4 5 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:2 3 8 
+desPos:1 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 2 3 8 
+desPos:4 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:4 7 10 11 
+auxPos:1 2 3 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 10 11 
+auxPos:2 3 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 10 11 
+auxPos:3 8 
+desPos:2 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:3 8 
+desPos:1 2 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 10 11 
+auxPos:8 
+desPos:1 2 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:1 8 
+desPos:2 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 10 11 
+auxPos:1 8 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 10 11 
+auxPos:8 
+desPos:5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 10 11 
+auxPos:5 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 10 11 
+auxPos:5 8 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:2 5 8 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:1 2 5 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:1 2 5 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 10 11 
+auxPos:2 5 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 10 11 
+auxPos:5 8 
+desPos:2 3 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:5 8 
+desPos:1 2 3 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:4 5 8 
+desPos:1 2 3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 4 5 8 
+desPos:2 3 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 10 11 
+auxPos:1 4 5 8 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 10 11 
+auxPos:4 5 8 
+desPos:3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 10 11 
+auxPos:3 4 5 8 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 10 11 
+auxPos:3 4 5 8 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:2 3 4 5 8 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 2 3 4 5 8 
+desPos:6 9 
+
+From peg:des	 To peg:initial
+initialPos:6 7 10 11 
+auxPos:1 2 3 4 5 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 10 11 
+auxPos:2 3 4 5 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 10 11 
+auxPos:3 4 5 8 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:3 4 5 8 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 10 11 
+auxPos:4 5 8 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:1 4 5 8 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 10 11 
+auxPos:1 4 5 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 10 11 
+auxPos:4 5 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 10 11 
+auxPos:5 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 10 11 
+auxPos:5 8 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:2 5 8 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:1 2 5 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:1 2 5 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 10 11 
+auxPos:2 5 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 10 11 
+auxPos:5 8 
+desPos:2 3 4 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:5 8 
+desPos:1 2 3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 7 10 11 
+auxPos:8 
+desPos:1 2 3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:1 8 
+desPos:2 3 4 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 10 11 
+auxPos:1 8 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 10 11 
+auxPos:8 
+desPos:3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 10 11 
+auxPos:3 8 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 10 11 
+auxPos:3 8 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:2 3 8 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:1 2 3 8 
+desPos:4 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 7 10 11 
+auxPos:1 2 3 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 10 11 
+auxPos:2 3 8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 10 11 
+auxPos:3 8 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 10 11 
+auxPos:3 8 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 7 10 11 
+auxPos:8 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 10 11 
+auxPos:1 8 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 7 10 11 
+auxPos:1 8 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 7 10 11 
+auxPos:8 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 6 7 10 11 
+auxPos:
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 10 11 
+auxPos:
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 10 11 
+auxPos:2 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 10 11 
+auxPos:1 2 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 10 11 
+auxPos:1 2 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 10 11 
+auxPos:2 
+desPos:3 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 10 11 
+auxPos:
+desPos:2 3 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 10 11 
+auxPos:
+desPos:1 2 3 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:4 
+desPos:1 2 3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:1 4 
+desPos:2 3 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 10 11 
+auxPos:1 4 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 10 11 
+auxPos:4 
+desPos:3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 10 11 
+auxPos:3 4 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 10 11 
+auxPos:3 4 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:2 3 4 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 10 11 
+auxPos:1 2 3 4 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:1 2 3 4 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 10 11 
+auxPos:2 3 4 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 10 11 
+auxPos:3 4 
+desPos:2 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:3 4 
+desPos:1 2 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 10 11 
+auxPos:4 
+desPos:1 2 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:1 4 
+desPos:2 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 10 11 
+auxPos:1 4 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 10 11 
+auxPos:4 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 10 11 
+auxPos:
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 10 11 
+auxPos:
+desPos:1 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:2 
+desPos:1 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 10 11 
+auxPos:1 2 
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:1 2 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 10 11 
+auxPos:2 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 10 11 
+auxPos:
+desPos:2 3 4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 10 11 
+auxPos:
+desPos:1 2 3 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:6 
+desPos:1 2 3 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 6 
+desPos:2 3 4 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 10 11 
+auxPos:1 6 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 10 11 
+auxPos:6 
+desPos:3 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 10 11 
+auxPos:3 6 
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 10 11 
+auxPos:3 6 
+desPos:1 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:2 3 6 
+desPos:1 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 2 3 6 
+desPos:4 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:4 7 10 11 
+auxPos:1 2 3 6 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 10 11 
+auxPos:2 3 6 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 10 11 
+auxPos:3 6 
+desPos:2 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:3 6 
+desPos:1 2 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 10 11 
+auxPos:6 
+desPos:1 2 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:1 6 
+desPos:2 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 10 11 
+auxPos:1 6 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 10 11 
+auxPos:6 
+desPos:5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 10 11 
+auxPos:5 6 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 10 11 
+auxPos:5 6 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:2 5 6 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 10 11 
+auxPos:1 2 5 6 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:1 2 5 6 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 10 11 
+auxPos:2 5 6 
+desPos:3 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 10 11 
+auxPos:5 6 
+desPos:2 3 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 10 11 
+auxPos:5 6 
+desPos:1 2 3 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:4 5 6 
+desPos:1 2 3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 4 5 6 
+desPos:2 3 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 10 11 
+auxPos:1 4 5 6 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 10 11 
+auxPos:4 5 6 
+desPos:3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 10 11 
+auxPos:3 4 5 6 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 10 11 
+auxPos:3 4 5 6 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 10 11 
+auxPos:2 3 4 5 6 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:7 10 11 
+auxPos:1 2 3 4 5 6 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 3 4 5 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 3 4 5 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:3 4 5 6 
+desPos:2 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:3 4 5 6 
+desPos:1 2 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 10 11 
+auxPos:4 5 6 
+desPos:1 2 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 4 5 6 
+desPos:2 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 10 11 
+auxPos:1 4 5 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 10 11 
+auxPos:4 5 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 10 11 
+auxPos:5 6 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 10 11 
+auxPos:5 6 
+desPos:1 4 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 10 11 
+auxPos:2 5 6 
+desPos:1 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 2 5 6 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 5 6 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 5 6 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:5 6 
+desPos:2 3 4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:5 6 
+desPos:1 2 3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 10 11 
+auxPos:6 
+desPos:1 2 3 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 6 
+desPos:2 3 4 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 10 11 
+auxPos:1 6 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 10 11 
+auxPos:6 
+desPos:3 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 10 11 
+auxPos:3 6 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 10 11 
+auxPos:3 6 
+desPos:1 4 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:2 3 6 
+desPos:1 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 2 3 6 
+desPos:4 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 10 11 
+auxPos:1 2 3 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 10 11 
+auxPos:2 3 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 10 11 
+auxPos:3 6 
+desPos:2 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:3 6 
+desPos:1 2 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 10 11 
+auxPos:6 
+desPos:1 2 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:1 6 
+desPos:2 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 10 11 
+auxPos:1 6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 10 11 
+auxPos:6 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 10 11 
+auxPos:
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 10 11 
+auxPos:
+desPos:1 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:2 
+desPos:1 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 10 11 
+auxPos:1 2 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:1 2 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 10 11 
+auxPos:2 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 10 11 
+auxPos:
+desPos:2 3 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 10 11 
+auxPos:
+desPos:1 2 3 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:4 
+desPos:1 2 3 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 4 
+desPos:2 3 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 10 11 
+auxPos:1 4 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 10 11 
+auxPos:4 
+desPos:3 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 10 11 
+auxPos:3 4 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 10 11 
+auxPos:3 4 
+desPos:1 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 10 11 
+auxPos:2 3 4 
+desPos:1 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 10 11 
+auxPos:1 2 3 4 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 3 4 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 3 4 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:3 4 
+desPos:2 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:3 4 
+desPos:1 2 5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 10 11 
+auxPos:4 
+desPos:1 2 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 4 
+desPos:2 5 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 10 11 
+auxPos:1 4 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 10 11 
+auxPos:4 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 10 11 
+auxPos:
+desPos:4 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 10 11 
+auxPos:
+desPos:1 4 5 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 10 11 
+auxPos:2 
+desPos:1 4 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 10 11 
+auxPos:1 2 
+desPos:4 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:1 2 
+desPos:3 4 5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 10 11 
+auxPos:2 
+desPos:3 4 5 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 10 11 
+auxPos:
+desPos:2 3 4 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:10 11 
+auxPos:
+desPos:1 2 3 4 5 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:10 
+desPos:1 2 3 4 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 10 
+desPos:2 3 4 5 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 10 
+desPos:3 4 5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:10 
+desPos:3 4 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 10 
+desPos:4 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 10 
+desPos:1 4 5 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 10 
+desPos:1 4 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 10 
+desPos:4 5 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:4 11 
+auxPos:1 2 3 10 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 3 10 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:3 10 
+desPos:2 5 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:3 10 
+desPos:1 2 5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 11 
+auxPos:10 
+desPos:1 2 5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 10 
+desPos:2 5 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 11 
+auxPos:1 10 
+desPos:5 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 11 
+auxPos:10 
+desPos:5 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 11 
+auxPos:5 10 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 11 
+auxPos:5 10 
+desPos:1 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 11 
+auxPos:2 5 10 
+desPos:1 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 2 5 10 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:1 2 5 10 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 5 10 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:5 10 
+desPos:2 3 6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:5 10 
+desPos:1 2 3 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:4 5 10 
+desPos:1 2 3 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 4 5 10 
+desPos:2 3 6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 4 5 10 
+desPos:3 6 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:4 5 10 
+desPos:3 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 4 5 10 
+desPos:6 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 4 5 10 
+desPos:1 6 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 4 5 10 
+desPos:1 6 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 4 5 10 
+desPos:6 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:6 11 
+auxPos:1 2 3 4 5 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 3 4 5 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:3 4 5 10 
+desPos:2 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:3 4 5 10 
+desPos:1 2 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 11 
+auxPos:4 5 10 
+desPos:1 2 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 4 5 10 
+desPos:2 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 11 
+auxPos:1 4 5 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 11 
+auxPos:4 5 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 11 
+auxPos:5 10 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 11 
+auxPos:5 10 
+desPos:1 4 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 11 
+auxPos:2 5 10 
+desPos:1 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 2 5 10 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 5 10 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 5 10 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:5 10 
+desPos:2 3 4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:5 10 
+desPos:1 2 3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 11 
+auxPos:10 
+desPos:1 2 3 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 10 
+desPos:2 3 4 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 11 
+auxPos:1 10 
+desPos:3 4 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 11 
+auxPos:10 
+desPos:3 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 11 
+auxPos:3 10 
+desPos:4 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 11 
+auxPos:3 10 
+desPos:1 4 7 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:2 3 10 
+desPos:1 4 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 2 3 10 
+desPos:4 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 11 
+auxPos:1 2 3 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 11 
+auxPos:2 3 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 11 
+auxPos:3 10 
+desPos:2 7 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:3 10 
+desPos:1 2 7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 11 
+auxPos:10 
+desPos:1 2 7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:1 10 
+desPos:2 7 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 11 
+auxPos:1 10 
+desPos:7 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 11 
+auxPos:10 
+desPos:7 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 11 
+auxPos:7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 11 
+auxPos:7 10 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:2 7 10 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:1 2 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:1 2 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 11 
+auxPos:2 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 11 
+auxPos:7 10 
+desPos:2 3 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:7 10 
+desPos:1 2 3 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:4 7 10 
+desPos:1 2 3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 4 7 10 
+desPos:2 3 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 11 
+auxPos:1 4 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 11 
+auxPos:4 7 10 
+desPos:3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 11 
+auxPos:3 4 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 11 
+auxPos:3 4 7 10 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:2 3 4 7 10 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 2 3 4 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 3 4 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 3 4 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:3 4 7 10 
+desPos:2 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:3 4 7 10 
+desPos:1 2 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 11 
+auxPos:4 7 10 
+desPos:1 2 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 4 7 10 
+desPos:2 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 11 
+auxPos:1 4 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 11 
+auxPos:4 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 11 
+auxPos:7 10 
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 11 
+auxPos:7 10 
+desPos:1 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 11 
+auxPos:2 7 10 
+desPos:1 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 2 7 10 
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 7 10 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 7 10 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:7 10 
+desPos:2 3 4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:7 10 
+desPos:1 2 3 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:6 7 10 
+desPos:1 2 3 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 6 7 10 
+desPos:2 3 4 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 6 7 10 
+desPos:3 4 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:6 7 10 
+desPos:3 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 6 7 10 
+desPos:4 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 6 7 10 
+desPos:1 4 5 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 6 7 10 
+desPos:1 4 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 6 7 10 
+desPos:4 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:4 11 
+auxPos:1 2 3 6 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 3 6 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:3 6 7 10 
+desPos:2 5 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:3 6 7 10 
+desPos:1 2 5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 11 
+auxPos:6 7 10 
+desPos:1 2 5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 6 7 10 
+desPos:2 5 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 11 
+auxPos:1 6 7 10 
+desPos:5 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 11 
+auxPos:6 7 10 
+desPos:5 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 11 
+auxPos:5 6 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 11 
+auxPos:5 6 7 10 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 11 
+auxPos:2 5 6 7 10 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 2 5 6 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:1 2 5 6 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 5 6 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:5 6 7 10 
+desPos:2 3 8 9 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:5 6 7 10 
+desPos:1 2 3 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:4 5 6 7 10 
+desPos:1 2 3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 4 5 6 7 10 
+desPos:2 3 8 9 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 4 5 6 7 10 
+desPos:3 8 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:4 5 6 7 10 
+desPos:3 8 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 4 5 6 7 10 
+desPos:8 9 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 4 5 6 7 10 
+desPos:1 8 9 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 4 5 6 7 10 
+desPos:1 8 9 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 4 5 6 7 10 
+desPos:8 9 
+
+From peg:des	 To peg:initial
+initialPos:8 11 
+auxPos:1 2 3 4 5 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 3 4 5 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:3 4 5 6 7 10 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:3 4 5 6 7 10 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 11 
+auxPos:4 5 6 7 10 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 4 5 6 7 10 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 11 
+auxPos:1 4 5 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 11 
+auxPos:4 5 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 11 
+auxPos:5 6 7 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 11 
+auxPos:5 6 7 10 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 11 
+auxPos:2 5 6 7 10 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 2 5 6 7 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 5 6 7 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 5 6 7 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:5 6 7 10 
+desPos:2 3 4 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:5 6 7 10 
+desPos:1 2 3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 8 11 
+auxPos:6 7 10 
+desPos:1 2 3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 6 7 10 
+desPos:2 3 4 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 11 
+auxPos:1 6 7 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 11 
+auxPos:6 7 10 
+desPos:3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 11 
+auxPos:3 6 7 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 11 
+auxPos:3 6 7 10 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:2 3 6 7 10 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 2 3 6 7 10 
+desPos:4 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 8 11 
+auxPos:1 2 3 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 11 
+auxPos:2 3 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 11 
+auxPos:3 6 7 10 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:3 6 7 10 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 8 11 
+auxPos:6 7 10 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:1 6 7 10 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 8 11 
+auxPos:1 6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 8 11 
+auxPos:6 7 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 8 11 
+auxPos:7 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 8 11 
+auxPos:7 10 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:2 7 10 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:1 2 7 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:1 2 7 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 11 
+auxPos:2 7 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 11 
+auxPos:7 10 
+desPos:2 3 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:7 10 
+desPos:1 2 3 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:4 7 10 
+desPos:1 2 3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 4 7 10 
+desPos:2 3 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 11 
+auxPos:1 4 7 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 11 
+auxPos:4 7 10 
+desPos:3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 11 
+auxPos:3 4 7 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 11 
+auxPos:3 4 7 10 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:2 3 4 7 10 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 2 3 4 7 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 3 4 7 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 3 4 7 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:3 4 7 10 
+desPos:2 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:3 4 7 10 
+desPos:1 2 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 11 
+auxPos:4 7 10 
+desPos:1 2 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 4 7 10 
+desPos:2 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 11 
+auxPos:1 4 7 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 11 
+auxPos:4 7 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 11 
+auxPos:7 10 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 11 
+auxPos:7 10 
+desPos:1 4 5 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 11 
+auxPos:2 7 10 
+desPos:1 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 2 7 10 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 7 10 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 7 10 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:7 10 
+desPos:2 3 4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:7 10 
+desPos:1 2 3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:7 8 11 
+auxPos:10 
+desPos:1 2 3 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 10 
+desPos:2 3 4 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 11 
+auxPos:1 10 
+desPos:3 4 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 11 
+auxPos:10 
+desPos:3 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 11 
+auxPos:3 10 
+desPos:4 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 11 
+auxPos:3 10 
+desPos:1 4 5 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:2 3 10 
+desPos:1 4 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 2 3 10 
+desPos:4 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:4 7 8 11 
+auxPos:1 2 3 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 11 
+auxPos:2 3 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 11 
+auxPos:3 10 
+desPos:2 5 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:3 10 
+desPos:1 2 5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 8 11 
+auxPos:10 
+desPos:1 2 5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:1 10 
+desPos:2 5 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 8 11 
+auxPos:1 10 
+desPos:5 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 8 11 
+auxPos:10 
+desPos:5 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 8 11 
+auxPos:5 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 8 11 
+auxPos:5 10 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:2 5 10 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:1 2 5 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:1 2 5 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 11 
+auxPos:2 5 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 11 
+auxPos:5 10 
+desPos:2 3 6 9 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:5 10 
+desPos:1 2 3 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:4 5 10 
+desPos:1 2 3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 4 5 10 
+desPos:2 3 6 9 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 11 
+auxPos:1 4 5 10 
+desPos:3 6 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 11 
+auxPos:4 5 10 
+desPos:3 6 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 11 
+auxPos:3 4 5 10 
+desPos:6 9 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 11 
+auxPos:3 4 5 10 
+desPos:1 6 9 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:2 3 4 5 10 
+desPos:1 6 9 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 2 3 4 5 10 
+desPos:6 9 
+
+From peg:des	 To peg:initial
+initialPos:6 7 8 11 
+auxPos:1 2 3 4 5 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 11 
+auxPos:2 3 4 5 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 11 
+auxPos:3 4 5 10 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:3 4 5 10 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 8 11 
+auxPos:4 5 10 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:1 4 5 10 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 8 11 
+auxPos:1 4 5 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 8 11 
+auxPos:4 5 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 8 11 
+auxPos:5 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 8 11 
+auxPos:5 10 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:2 5 10 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:1 2 5 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:1 2 5 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 11 
+auxPos:2 5 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 11 
+auxPos:5 10 
+desPos:2 3 4 9 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:5 10 
+desPos:1 2 3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 7 8 11 
+auxPos:10 
+desPos:1 2 3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:1 10 
+desPos:2 3 4 9 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 8 11 
+auxPos:1 10 
+desPos:3 4 9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 8 11 
+auxPos:10 
+desPos:3 4 9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 8 11 
+auxPos:3 10 
+desPos:4 9 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 8 11 
+auxPos:3 10 
+desPos:1 4 9 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:2 3 10 
+desPos:1 4 9 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:1 2 3 10 
+desPos:4 9 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 7 8 11 
+auxPos:1 2 3 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 8 11 
+auxPos:2 3 10 
+desPos:9 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 8 11 
+auxPos:3 10 
+desPos:2 9 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 11 
+auxPos:3 10 
+desPos:1 2 9 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 7 8 11 
+auxPos:10 
+desPos:1 2 9 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 8 11 
+auxPos:1 10 
+desPos:2 9 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 7 8 11 
+auxPos:1 10 
+desPos:9 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 7 8 11 
+auxPos:10 
+desPos:9 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 7 8 11 
+auxPos:9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 8 11 
+auxPos:9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 8 11 
+auxPos:2 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 8 11 
+auxPos:1 2 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 11 
+auxPos:1 2 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 8 11 
+auxPos:2 9 10 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 8 11 
+auxPos:9 10 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 11 
+auxPos:9 10 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:4 9 10 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:1 4 9 10 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 8 11 
+auxPos:1 4 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 8 11 
+auxPos:4 9 10 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 8 11 
+auxPos:3 4 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 8 11 
+auxPos:3 4 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:2 3 4 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 11 
+auxPos:1 2 3 4 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:1 2 3 4 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 11 
+auxPos:2 3 4 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 11 
+auxPos:3 4 9 10 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:3 4 9 10 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 8 11 
+auxPos:4 9 10 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:1 4 9 10 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 8 11 
+auxPos:1 4 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 8 11 
+auxPos:4 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 8 11 
+auxPos:9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 8 11 
+auxPos:9 10 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:2 9 10 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 11 
+auxPos:1 2 9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:1 2 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 11 
+auxPos:2 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 11 
+auxPos:9 10 
+desPos:2 3 4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 11 
+auxPos:9 10 
+desPos:1 2 3 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:6 9 10 
+desPos:1 2 3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 6 9 10 
+desPos:2 3 4 5 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 11 
+auxPos:1 6 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 11 
+auxPos:6 9 10 
+desPos:3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 11 
+auxPos:3 6 9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 11 
+auxPos:3 6 9 10 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:2 3 6 9 10 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 2 3 6 9 10 
+desPos:4 5 
+
+From peg:des	 To peg:initial
+initialPos:4 7 8 11 
+auxPos:1 2 3 6 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 11 
+auxPos:2 3 6 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 11 
+auxPos:3 6 9 10 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:3 6 9 10 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 8 11 
+auxPos:6 9 10 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:1 6 9 10 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 8 11 
+auxPos:1 6 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 8 11 
+auxPos:6 9 10 
+desPos:5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 8 11 
+auxPos:5 6 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 8 11 
+auxPos:5 6 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:2 5 6 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 11 
+auxPos:1 2 5 6 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:1 2 5 6 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 11 
+auxPos:2 5 6 9 10 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 11 
+auxPos:5 6 9 10 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 11 
+auxPos:5 6 9 10 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:4 5 6 9 10 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 4 5 6 9 10 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 11 
+auxPos:1 4 5 6 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 11 
+auxPos:4 5 6 9 10 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 11 
+auxPos:3 4 5 6 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 11 
+auxPos:3 4 5 6 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 11 
+auxPos:2 3 4 5 6 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:7 8 11 
+auxPos:1 2 3 4 5 6 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 3 4 5 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 3 4 5 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:3 4 5 6 9 10 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:3 4 5 6 9 10 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 11 
+auxPos:4 5 6 9 10 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 4 5 6 9 10 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 11 
+auxPos:1 4 5 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 11 
+auxPos:4 5 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 11 
+auxPos:5 6 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 11 
+auxPos:5 6 9 10 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 11 
+auxPos:2 5 6 9 10 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 2 5 6 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 5 6 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 5 6 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:5 6 9 10 
+desPos:2 3 4 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:5 6 9 10 
+desPos:1 2 3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:5 8 11 
+auxPos:6 9 10 
+desPos:1 2 3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 6 9 10 
+desPos:2 3 4 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 11 
+auxPos:1 6 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 11 
+auxPos:6 9 10 
+desPos:3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 11 
+auxPos:3 6 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 11 
+auxPos:3 6 9 10 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:2 3 6 9 10 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 2 3 6 9 10 
+desPos:4 7 
+
+From peg:des	 To peg:initial
+initialPos:4 5 8 11 
+auxPos:1 2 3 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 11 
+auxPos:2 3 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 11 
+auxPos:3 6 9 10 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:3 6 9 10 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 8 11 
+auxPos:6 9 10 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:1 6 9 10 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 8 11 
+auxPos:1 6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 8 11 
+auxPos:6 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 8 11 
+auxPos:9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 8 11 
+auxPos:9 10 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:2 9 10 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 11 
+auxPos:1 2 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:1 2 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 11 
+auxPos:2 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 11 
+auxPos:9 10 
+desPos:2 3 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 11 
+auxPos:9 10 
+desPos:1 2 3 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:4 9 10 
+desPos:1 2 3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 4 9 10 
+desPos:2 3 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 11 
+auxPos:1 4 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 11 
+auxPos:4 9 10 
+desPos:3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 11 
+auxPos:3 4 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 11 
+auxPos:3 4 9 10 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 11 
+auxPos:2 3 4 9 10 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:5 8 11 
+auxPos:1 2 3 4 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 3 4 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 3 4 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:3 4 9 10 
+desPos:2 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:3 4 9 10 
+desPos:1 2 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 11 
+auxPos:4 9 10 
+desPos:1 2 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 4 9 10 
+desPos:2 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 11 
+auxPos:1 4 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 11 
+auxPos:4 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 11 
+auxPos:9 10 
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 11 
+auxPos:9 10 
+desPos:1 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 11 
+auxPos:2 9 10 
+desPos:1 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 8 11 
+auxPos:1 2 9 10 
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:1 2 9 10 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 11 
+auxPos:2 9 10 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 8 11 
+auxPos:9 10 
+desPos:2 3 4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:8 11 
+auxPos:9 10 
+desPos:1 2 3 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:8 9 10 
+desPos:1 2 3 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 8 9 10 
+desPos:2 3 4 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 8 9 10 
+desPos:3 4 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:8 9 10 
+desPos:3 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 8 9 10 
+desPos:4 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 8 9 10 
+desPos:1 4 5 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 8 9 10 
+desPos:1 4 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 8 9 10 
+desPos:4 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:4 11 
+auxPos:1 2 3 8 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 3 8 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:3 8 9 10 
+desPos:2 5 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:3 8 9 10 
+desPos:1 2 5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 11 
+auxPos:8 9 10 
+desPos:1 2 5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 8 9 10 
+desPos:2 5 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 11 
+auxPos:1 8 9 10 
+desPos:5 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 11 
+auxPos:8 9 10 
+desPos:5 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 11 
+auxPos:5 8 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 11 
+auxPos:5 8 9 10 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 11 
+auxPos:2 5 8 9 10 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 2 5 8 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:1 2 5 8 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 5 8 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:5 8 9 10 
+desPos:2 3 6 7 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:5 8 9 10 
+desPos:1 2 3 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:4 5 8 9 10 
+desPos:1 2 3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 4 5 8 9 10 
+desPos:2 3 6 7 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 4 5 8 9 10 
+desPos:3 6 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:4 5 8 9 10 
+desPos:3 6 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 4 5 8 9 10 
+desPos:6 7 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 4 5 8 9 10 
+desPos:1 6 7 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 4 5 8 9 10 
+desPos:1 6 7 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 4 5 8 9 10 
+desPos:6 7 
+
+From peg:des	 To peg:initial
+initialPos:6 11 
+auxPos:1 2 3 4 5 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 3 4 5 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:3 4 5 8 9 10 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:3 4 5 8 9 10 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 11 
+auxPos:4 5 8 9 10 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 4 5 8 9 10 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 11 
+auxPos:1 4 5 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 11 
+auxPos:4 5 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 11 
+auxPos:5 8 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 11 
+auxPos:5 8 9 10 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 11 
+auxPos:2 5 8 9 10 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 2 5 8 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 5 8 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 5 8 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:5 8 9 10 
+desPos:2 3 4 7 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:5 8 9 10 
+desPos:1 2 3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 11 
+auxPos:8 9 10 
+desPos:1 2 3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 8 9 10 
+desPos:2 3 4 7 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 11 
+auxPos:1 8 9 10 
+desPos:3 4 7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 11 
+auxPos:8 9 10 
+desPos:3 4 7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 11 
+auxPos:3 8 9 10 
+desPos:4 7 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 11 
+auxPos:3 8 9 10 
+desPos:1 4 7 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:2 3 8 9 10 
+desPos:1 4 7 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 2 3 8 9 10 
+desPos:4 7 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 11 
+auxPos:1 2 3 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 11 
+auxPos:2 3 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 11 
+auxPos:3 8 9 10 
+desPos:2 7 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:3 8 9 10 
+desPos:1 2 7 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 11 
+auxPos:8 9 10 
+desPos:1 2 7 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:1 8 9 10 
+desPos:2 7 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 11 
+auxPos:1 8 9 10 
+desPos:7 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 11 
+auxPos:8 9 10 
+desPos:7 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 11 
+auxPos:7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 11 
+auxPos:7 8 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:2 7 8 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 11 
+auxPos:1 2 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:1 2 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 11 
+auxPos:2 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 11 
+auxPos:7 8 9 10 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 11 
+auxPos:7 8 9 10 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:4 7 8 9 10 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 4 7 8 9 10 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 11 
+auxPos:1 4 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 11 
+auxPos:4 7 8 9 10 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 11 
+auxPos:3 4 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 11 
+auxPos:3 4 7 8 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 11 
+auxPos:2 3 4 7 8 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:5 6 11 
+auxPos:1 2 3 4 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 3 4 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 3 4 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:3 4 7 8 9 10 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:3 4 7 8 9 10 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 11 
+auxPos:4 7 8 9 10 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 4 7 8 9 10 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 11 
+auxPos:1 4 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 11 
+auxPos:4 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 11 
+auxPos:7 8 9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 11 
+auxPos:7 8 9 10 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 11 
+auxPos:2 7 8 9 10 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:3 6 11 
+auxPos:1 2 7 8 9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:1 2 7 8 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 11 
+auxPos:2 7 8 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:des
+initialPos:1 6 11 
+auxPos:7 8 9 10 
+desPos:2 3 4 5 
+
+From peg:initial	 To peg:des
+initialPos:6 11 
+auxPos:7 8 9 10 
+desPos:1 2 3 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:6 7 8 9 10 
+desPos:1 2 3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 6 7 8 9 10 
+desPos:2 3 4 5 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 6 7 8 9 10 
+desPos:3 4 5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:6 7 8 9 10 
+desPos:3 4 5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 6 7 8 9 10 
+desPos:4 5 
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 6 7 8 9 10 
+desPos:1 4 5 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 6 7 8 9 10 
+desPos:1 4 5 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 6 7 8 9 10 
+desPos:4 5 
+
+From peg:des	 To peg:initial
+initialPos:4 11 
+auxPos:1 2 3 6 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 3 6 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:3 6 7 8 9 10 
+desPos:2 5 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:3 6 7 8 9 10 
+desPos:1 2 5 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 11 
+auxPos:6 7 8 9 10 
+desPos:1 2 5 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 6 7 8 9 10 
+desPos:2 5 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 11 
+auxPos:1 6 7 8 9 10 
+desPos:5 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 11 
+auxPos:6 7 8 9 10 
+desPos:5 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 11 
+auxPos:5 6 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 11 
+auxPos:5 6 7 8 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 11 
+auxPos:2 5 6 7 8 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:3 4 11 
+auxPos:1 2 5 6 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:1 2 5 6 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 11 
+auxPos:2 5 6 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:des
+initialPos:1 4 11 
+auxPos:5 6 7 8 9 10 
+desPos:2 3 
+
+From peg:initial	 To peg:des
+initialPos:4 11 
+auxPos:5 6 7 8 9 10 
+desPos:1 2 3 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:4 5 6 7 8 9 10 
+desPos:1 2 3 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 4 5 6 7 8 9 10 
+desPos:2 3 
+
+From peg:des	 To peg:initial
+initialPos:2 11 
+auxPos:1 4 5 6 7 8 9 10 
+desPos:3 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 11 
+auxPos:4 5 6 7 8 9 10 
+desPos:3 
+
+From peg:des	 To peg:aux
+initialPos:1 2 11 
+auxPos:3 4 5 6 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:2 11 
+auxPos:3 4 5 6 7 8 9 10 
+desPos:1 
+
+From peg:initial	 To peg:aux
+initialPos:11 
+auxPos:2 3 4 5 6 7 8 9 10 
+desPos:1 
+
+From peg:des	 To peg:aux
+initialPos:11 
+auxPos:1 2 3 4 5 6 7 8 9 10 
+desPos:
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 5 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 5 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 5 6 7 8 9 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 5 6 7 8 9 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 5 6 7 8 9 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 5 6 7 8 9 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 5 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 5 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:5 6 7 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:5 6 7 8 9 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 5 6 7 8 9 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 5 6 7 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 5 6 7 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 5 6 7 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:5 6 7 8 9 10 
+desPos:2 3 4 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:5 6 7 8 9 10 
+desPos:1 2 3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 
+auxPos:6 7 8 9 10 
+desPos:1 2 3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 6 7 8 9 10 
+desPos:2 3 4 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 6 7 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:6 7 8 9 10 
+desPos:3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 6 7 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 6 7 8 9 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 6 7 8 9 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 6 7 8 9 10 
+desPos:4 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 
+auxPos:1 2 3 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 3 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:3 6 7 8 9 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:3 6 7 8 9 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 
+auxPos:6 7 8 9 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 6 7 8 9 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 
+auxPos:1 6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 
+auxPos:6 7 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 
+auxPos:7 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 
+auxPos:7 8 9 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 
+auxPos:2 7 8 9 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 2 7 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:1 2 7 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 7 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:7 8 9 10 
+desPos:2 3 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:7 8 9 10 
+desPos:1 2 3 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:4 7 8 9 10 
+desPos:1 2 3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 4 7 8 9 10 
+desPos:2 3 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 4 7 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:4 7 8 9 10 
+desPos:3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 4 7 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 4 7 8 9 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 4 7 8 9 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 4 7 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 7 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 7 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 7 8 9 10 
+desPos:2 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 7 8 9 10 
+desPos:1 2 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 7 8 9 10 
+desPos:1 2 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 7 8 9 10 
+desPos:2 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 7 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 7 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:7 8 9 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:7 8 9 10 
+desPos:1 4 5 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 7 8 9 10 
+desPos:1 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 7 8 9 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 7 8 9 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 7 8 9 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:7 8 9 10 
+desPos:2 3 4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:7 8 9 10 
+desPos:1 2 3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:7 
+auxPos:8 9 10 
+desPos:1 2 3 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 8 9 10 
+desPos:2 3 4 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 8 9 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:8 9 10 
+desPos:3 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 8 9 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 8 9 10 
+desPos:1 4 5 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 8 9 10 
+desPos:1 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 8 9 10 
+desPos:4 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 
+auxPos:1 2 3 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 3 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:3 8 9 10 
+desPos:2 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:3 8 9 10 
+desPos:1 2 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 
+auxPos:8 9 10 
+desPos:1 2 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 8 9 10 
+desPos:2 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 
+auxPos:1 8 9 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 
+auxPos:8 9 10 
+desPos:5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 
+auxPos:5 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 
+auxPos:5 8 9 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 
+auxPos:2 5 8 9 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 2 5 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:1 2 5 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 5 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:5 8 9 10 
+desPos:2 3 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:5 8 9 10 
+desPos:1 2 3 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:4 5 8 9 10 
+desPos:1 2 3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 4 5 8 9 10 
+desPos:2 3 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 4 5 8 9 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:4 5 8 9 10 
+desPos:3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 4 5 8 9 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 4 5 8 9 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 4 5 8 9 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 4 5 8 9 10 
+desPos:6 11 
+
+From peg:des	 To peg:initial
+initialPos:6 7 
+auxPos:1 2 3 4 5 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 3 4 5 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:3 4 5 8 9 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:3 4 5 8 9 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 
+auxPos:4 5 8 9 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 4 5 8 9 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 
+auxPos:1 4 5 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 
+auxPos:4 5 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 
+auxPos:5 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 
+auxPos:5 8 9 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 
+auxPos:2 5 8 9 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 2 5 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 5 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 5 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:5 8 9 10 
+desPos:2 3 4 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:5 8 9 10 
+desPos:1 2 3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 7 
+auxPos:8 9 10 
+desPos:1 2 3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 8 9 10 
+desPos:2 3 4 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 
+auxPos:1 8 9 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 
+auxPos:8 9 10 
+desPos:3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 
+auxPos:3 8 9 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 
+auxPos:3 8 9 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:2 3 8 9 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 2 3 8 9 10 
+desPos:4 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 7 
+auxPos:1 2 3 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 
+auxPos:2 3 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 
+auxPos:3 8 9 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:3 8 9 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 7 
+auxPos:8 9 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:1 8 9 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 7 
+auxPos:1 8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 7 
+auxPos:8 9 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 6 7 
+auxPos:9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 
+auxPos:9 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:2 9 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:1 2 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:1 2 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 
+auxPos:2 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 
+auxPos:9 10 
+desPos:2 3 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:9 10 
+desPos:1 2 3 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:4 9 10 
+desPos:1 2 3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 4 9 10 
+desPos:2 3 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 
+auxPos:1 4 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 
+auxPos:4 9 10 
+desPos:3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 
+auxPos:3 4 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 
+auxPos:3 4 9 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:2 3 4 9 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 2 3 4 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 3 4 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 3 4 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:3 4 9 10 
+desPos:2 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:3 4 9 10 
+desPos:1 2 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 
+auxPos:4 9 10 
+desPos:1 2 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 4 9 10 
+desPos:2 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 
+auxPos:1 4 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 
+auxPos:4 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 
+auxPos:9 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 
+auxPos:9 10 
+desPos:1 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 
+auxPos:2 9 10 
+desPos:1 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 2 9 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 9 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 9 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:9 10 
+desPos:2 3 4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:9 10 
+desPos:1 2 3 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:6 9 10 
+desPos:1 2 3 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 6 9 10 
+desPos:2 3 4 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 6 9 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:6 9 10 
+desPos:3 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 6 9 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 6 9 10 
+desPos:1 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 6 9 10 
+desPos:1 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 6 9 10 
+desPos:4 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 
+auxPos:1 2 3 6 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 3 6 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:3 6 9 10 
+desPos:2 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:3 6 9 10 
+desPos:1 2 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 
+auxPos:6 9 10 
+desPos:1 2 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 6 9 10 
+desPos:2 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 
+auxPos:1 6 9 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 
+auxPos:6 9 10 
+desPos:5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 
+auxPos:5 6 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 
+auxPos:5 6 9 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 
+auxPos:2 5 6 9 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 2 5 6 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:1 2 5 6 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 5 6 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:5 6 9 10 
+desPos:2 3 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:5 6 9 10 
+desPos:1 2 3 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:4 5 6 9 10 
+desPos:1 2 3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 4 5 6 9 10 
+desPos:2 3 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 4 5 6 9 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:4 5 6 9 10 
+desPos:3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 4 5 6 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 4 5 6 9 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 4 5 6 9 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 4 5 6 9 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 5 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 5 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 5 6 9 10 
+desPos:2 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 5 6 9 10 
+desPos:1 2 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 5 6 9 10 
+desPos:1 2 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 5 6 9 10 
+desPos:2 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 5 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 5 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:5 6 9 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:5 6 9 10 
+desPos:1 4 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 5 6 9 10 
+desPos:1 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 5 6 9 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 5 6 9 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 5 6 9 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:5 6 9 10 
+desPos:2 3 4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:5 6 9 10 
+desPos:1 2 3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 
+auxPos:6 9 10 
+desPos:1 2 3 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 6 9 10 
+desPos:2 3 4 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 6 9 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:6 9 10 
+desPos:3 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 6 9 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 6 9 10 
+desPos:1 4 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 6 9 10 
+desPos:1 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 6 9 10 
+desPos:4 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 
+auxPos:1 2 3 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 3 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:3 6 9 10 
+desPos:2 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:3 6 9 10 
+desPos:1 2 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 
+auxPos:6 9 10 
+desPos:1 2 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 6 9 10 
+desPos:2 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 
+auxPos:1 6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 
+auxPos:6 9 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 
+auxPos:9 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 
+auxPos:9 10 
+desPos:1 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 
+auxPos:2 9 10 
+desPos:1 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 2 9 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:1 2 9 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 9 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:9 10 
+desPos:2 3 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:9 10 
+desPos:1 2 3 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:4 9 10 
+desPos:1 2 3 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 4 9 10 
+desPos:2 3 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 4 9 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:4 9 10 
+desPos:3 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 4 9 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 4 9 10 
+desPos:1 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 4 9 10 
+desPos:1 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 4 9 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 9 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 9 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 9 10 
+desPos:2 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 9 10 
+desPos:1 2 5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 9 10 
+desPos:1 2 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 9 10 
+desPos:2 5 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 9 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 9 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:9 10 
+desPos:4 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:9 10 
+desPos:1 4 5 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 9 10 
+desPos:1 4 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 9 10 
+desPos:4 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 9 10 
+desPos:3 4 5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 9 10 
+desPos:3 4 5 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:9 10 
+desPos:2 3 4 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:9 10 
+desPos:1 2 3 4 5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:9 
+auxPos:10 
+desPos:1 2 3 4 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 10 
+desPos:2 3 4 5 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 10 
+desPos:3 4 5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:10 
+desPos:3 4 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 10 
+desPos:4 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 10 
+desPos:1 4 5 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 10 
+desPos:1 4 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 10 
+desPos:4 5 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:4 9 
+auxPos:1 2 3 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 3 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:3 10 
+desPos:2 5 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:3 10 
+desPos:1 2 5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 
+auxPos:10 
+desPos:1 2 5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 10 
+desPos:2 5 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 
+auxPos:1 10 
+desPos:5 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 
+auxPos:10 
+desPos:5 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 
+auxPos:5 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 
+auxPos:5 10 
+desPos:1 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 
+auxPos:2 5 10 
+desPos:1 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 2 5 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:1 2 5 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 5 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:5 10 
+desPos:2 3 6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:5 10 
+desPos:1 2 3 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:4 5 10 
+desPos:1 2 3 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 4 5 10 
+desPos:2 3 6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 4 5 10 
+desPos:3 6 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:4 5 10 
+desPos:3 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 4 5 10 
+desPos:6 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 4 5 10 
+desPos:1 6 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 4 5 10 
+desPos:1 6 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 4 5 10 
+desPos:6 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:6 9 
+auxPos:1 2 3 4 5 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 3 4 5 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:3 4 5 10 
+desPos:2 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:3 4 5 10 
+desPos:1 2 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 
+auxPos:4 5 10 
+desPos:1 2 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 4 5 10 
+desPos:2 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 
+auxPos:1 4 5 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 
+auxPos:4 5 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 
+auxPos:5 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 
+auxPos:5 10 
+desPos:1 4 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 
+auxPos:2 5 10 
+desPos:1 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 2 5 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 5 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 5 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:5 10 
+desPos:2 3 4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:5 10 
+desPos:1 2 3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 9 
+auxPos:10 
+desPos:1 2 3 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 10 
+desPos:2 3 4 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 
+auxPos:1 10 
+desPos:3 4 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 
+auxPos:10 
+desPos:3 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 
+auxPos:3 10 
+desPos:4 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 
+auxPos:3 10 
+desPos:1 4 7 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:2 3 10 
+desPos:1 4 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 2 3 10 
+desPos:4 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 9 
+auxPos:1 2 3 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 
+auxPos:2 3 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 
+auxPos:3 10 
+desPos:2 7 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:3 10 
+desPos:1 2 7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 9 
+auxPos:10 
+desPos:1 2 7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:1 10 
+desPos:2 7 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 9 
+auxPos:1 10 
+desPos:7 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 9 
+auxPos:10 
+desPos:7 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 9 
+auxPos:7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 9 
+auxPos:7 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:2 7 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:1 2 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:1 2 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 
+auxPos:2 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 
+auxPos:7 10 
+desPos:2 3 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:7 10 
+desPos:1 2 3 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:4 7 10 
+desPos:1 2 3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 4 7 10 
+desPos:2 3 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 
+auxPos:1 4 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 
+auxPos:4 7 10 
+desPos:3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 
+auxPos:3 4 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 
+auxPos:3 4 7 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:2 3 4 7 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 2 3 4 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 3 4 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 3 4 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:3 4 7 10 
+desPos:2 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:3 4 7 10 
+desPos:1 2 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 
+auxPos:4 7 10 
+desPos:1 2 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 4 7 10 
+desPos:2 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 
+auxPos:1 4 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 
+auxPos:4 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 
+auxPos:7 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 
+auxPos:7 10 
+desPos:1 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 
+auxPos:2 7 10 
+desPos:1 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 2 7 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 7 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 7 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:7 10 
+desPos:2 3 4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:7 10 
+desPos:1 2 3 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:6 7 10 
+desPos:1 2 3 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 6 7 10 
+desPos:2 3 4 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 6 7 10 
+desPos:3 4 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:6 7 10 
+desPos:3 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 6 7 10 
+desPos:4 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 6 7 10 
+desPos:1 4 5 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 6 7 10 
+desPos:1 4 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 6 7 10 
+desPos:4 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:4 9 
+auxPos:1 2 3 6 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 3 6 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:3 6 7 10 
+desPos:2 5 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:3 6 7 10 
+desPos:1 2 5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 
+auxPos:6 7 10 
+desPos:1 2 5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 6 7 10 
+desPos:2 5 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 
+auxPos:1 6 7 10 
+desPos:5 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 
+auxPos:6 7 10 
+desPos:5 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 
+auxPos:5 6 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 
+auxPos:5 6 7 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 
+auxPos:2 5 6 7 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 2 5 6 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:1 2 5 6 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 5 6 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:5 6 7 10 
+desPos:2 3 8 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:5 6 7 10 
+desPos:1 2 3 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:4 5 6 7 10 
+desPos:1 2 3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 4 5 6 7 10 
+desPos:2 3 8 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 4 5 6 7 10 
+desPos:3 8 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:4 5 6 7 10 
+desPos:3 8 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 4 5 6 7 10 
+desPos:8 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 4 5 6 7 10 
+desPos:1 8 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 4 5 6 7 10 
+desPos:1 8 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 4 5 6 7 10 
+desPos:8 11 
+
+From peg:des	 To peg:initial
+initialPos:8 9 
+auxPos:1 2 3 4 5 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 3 4 5 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:3 4 5 6 7 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:3 4 5 6 7 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 
+auxPos:4 5 6 7 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 4 5 6 7 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 
+auxPos:1 4 5 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 
+auxPos:4 5 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 
+auxPos:5 6 7 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 
+auxPos:5 6 7 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 
+auxPos:2 5 6 7 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 2 5 6 7 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 5 6 7 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 5 6 7 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:5 6 7 10 
+desPos:2 3 4 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:5 6 7 10 
+desPos:1 2 3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 8 9 
+auxPos:6 7 10 
+desPos:1 2 3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 6 7 10 
+desPos:2 3 4 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 
+auxPos:1 6 7 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 
+auxPos:6 7 10 
+desPos:3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 
+auxPos:3 6 7 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 
+auxPos:3 6 7 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:2 3 6 7 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 2 3 6 7 10 
+desPos:4 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 8 9 
+auxPos:1 2 3 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 
+auxPos:2 3 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 
+auxPos:3 6 7 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:3 6 7 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 8 9 
+auxPos:6 7 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:1 6 7 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 8 9 
+auxPos:1 6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 8 9 
+auxPos:6 7 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 8 9 
+auxPos:7 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 8 9 
+auxPos:7 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:2 7 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:1 2 7 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:1 2 7 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 
+auxPos:2 7 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 
+auxPos:7 10 
+desPos:2 3 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:7 10 
+desPos:1 2 3 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:4 7 10 
+desPos:1 2 3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 4 7 10 
+desPos:2 3 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 
+auxPos:1 4 7 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 
+auxPos:4 7 10 
+desPos:3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 
+auxPos:3 4 7 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 
+auxPos:3 4 7 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:2 3 4 7 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 2 3 4 7 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 3 4 7 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 3 4 7 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:3 4 7 10 
+desPos:2 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:3 4 7 10 
+desPos:1 2 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 
+auxPos:4 7 10 
+desPos:1 2 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 4 7 10 
+desPos:2 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 
+auxPos:1 4 7 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 
+auxPos:4 7 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 
+auxPos:7 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 
+auxPos:7 10 
+desPos:1 4 5 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 
+auxPos:2 7 10 
+desPos:1 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 2 7 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 7 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 7 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:7 10 
+desPos:2 3 4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:7 10 
+desPos:1 2 3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:7 8 9 
+auxPos:10 
+desPos:1 2 3 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 10 
+desPos:2 3 4 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 
+auxPos:1 10 
+desPos:3 4 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 
+auxPos:10 
+desPos:3 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 
+auxPos:3 10 
+desPos:4 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 
+auxPos:3 10 
+desPos:1 4 5 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:2 3 10 
+desPos:1 4 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 2 3 10 
+desPos:4 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 8 9 
+auxPos:1 2 3 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 
+auxPos:2 3 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 
+auxPos:3 10 
+desPos:2 5 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:3 10 
+desPos:1 2 5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 8 9 
+auxPos:10 
+desPos:1 2 5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:1 10 
+desPos:2 5 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 8 9 
+auxPos:1 10 
+desPos:5 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 8 9 
+auxPos:10 
+desPos:5 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 8 9 
+auxPos:5 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 8 9 
+auxPos:5 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:2 5 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:1 2 5 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:1 2 5 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 
+auxPos:2 5 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 
+auxPos:5 10 
+desPos:2 3 6 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:5 10 
+desPos:1 2 3 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:4 5 10 
+desPos:1 2 3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 4 5 10 
+desPos:2 3 6 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 
+auxPos:1 4 5 10 
+desPos:3 6 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 
+auxPos:4 5 10 
+desPos:3 6 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 
+auxPos:3 4 5 10 
+desPos:6 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 
+auxPos:3 4 5 10 
+desPos:1 6 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:2 3 4 5 10 
+desPos:1 6 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 2 3 4 5 10 
+desPos:6 11 
+
+From peg:des	 To peg:initial
+initialPos:6 7 8 9 
+auxPos:1 2 3 4 5 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 
+auxPos:2 3 4 5 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 
+auxPos:3 4 5 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:3 4 5 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 8 9 
+auxPos:4 5 10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:1 4 5 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 8 9 
+auxPos:1 4 5 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 8 9 
+auxPos:4 5 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 8 9 
+auxPos:5 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 8 9 
+auxPos:5 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:2 5 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:1 2 5 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:1 2 5 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 
+auxPos:2 5 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 
+auxPos:5 10 
+desPos:2 3 4 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:5 10 
+desPos:1 2 3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 7 8 9 
+auxPos:10 
+desPos:1 2 3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:1 10 
+desPos:2 3 4 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 8 9 
+auxPos:1 10 
+desPos:3 4 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 8 9 
+auxPos:10 
+desPos:3 4 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 8 9 
+auxPos:3 10 
+desPos:4 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 8 9 
+auxPos:3 10 
+desPos:1 4 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:2 3 10 
+desPos:1 4 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:1 2 3 10 
+desPos:4 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 7 8 9 
+auxPos:1 2 3 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 8 9 
+auxPos:2 3 10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 8 9 
+auxPos:3 10 
+desPos:2 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 9 
+auxPos:3 10 
+desPos:1 2 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 7 8 9 
+auxPos:10 
+desPos:1 2 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 8 9 
+auxPos:1 10 
+desPos:2 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 7 8 9 
+auxPos:1 10 
+desPos:11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 7 8 9 
+auxPos:10 
+desPos:11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 6 7 8 9 
+auxPos:
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 8 9 
+auxPos:
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 8 9 
+auxPos:2 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 8 9 
+auxPos:1 2 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 9 
+auxPos:1 2 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 8 9 
+auxPos:2 
+desPos:3 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 8 9 
+auxPos:
+desPos:2 3 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 8 9 
+auxPos:
+desPos:1 2 3 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:4 
+desPos:1 2 3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:1 4 
+desPos:2 3 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 8 9 
+auxPos:1 4 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 8 9 
+auxPos:4 
+desPos:3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 8 9 
+auxPos:3 4 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 8 9 
+auxPos:3 4 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:2 3 4 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 8 9 
+auxPos:1 2 3 4 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:1 2 3 4 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 
+auxPos:2 3 4 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 
+auxPos:3 4 
+desPos:2 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:3 4 
+desPos:1 2 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 8 9 
+auxPos:4 
+desPos:1 2 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:1 4 
+desPos:2 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 8 9 
+auxPos:1 4 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 8 9 
+auxPos:4 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 8 9 
+auxPos:
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 8 9 
+auxPos:
+desPos:1 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:2 
+desPos:1 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 8 9 
+auxPos:1 2 
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:1 2 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 8 9 
+auxPos:2 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 8 9 
+auxPos:
+desPos:2 3 4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 8 9 
+auxPos:
+desPos:1 2 3 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:6 
+desPos:1 2 3 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 6 
+desPos:2 3 4 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 
+auxPos:1 6 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 
+auxPos:6 
+desPos:3 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 
+auxPos:3 6 
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 
+auxPos:3 6 
+desPos:1 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:2 3 6 
+desPos:1 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 2 3 6 
+desPos:4 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 8 9 
+auxPos:1 2 3 6 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 
+auxPos:2 3 6 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 
+auxPos:3 6 
+desPos:2 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:3 6 
+desPos:1 2 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 8 9 
+auxPos:6 
+desPos:1 2 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:1 6 
+desPos:2 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 8 9 
+auxPos:1 6 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 8 9 
+auxPos:6 
+desPos:5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 8 9 
+auxPos:5 6 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 8 9 
+auxPos:5 6 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:2 5 6 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 8 9 
+auxPos:1 2 5 6 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:1 2 5 6 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 8 9 
+auxPos:2 5 6 
+desPos:3 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 8 9 
+auxPos:5 6 
+desPos:2 3 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 8 9 
+auxPos:5 6 
+desPos:1 2 3 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:4 5 6 
+desPos:1 2 3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 4 5 6 
+desPos:2 3 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 8 9 
+auxPos:1 4 5 6 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 8 9 
+auxPos:4 5 6 
+desPos:3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 8 9 
+auxPos:3 4 5 6 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 8 9 
+auxPos:3 4 5 6 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 8 9 
+auxPos:2 3 4 5 6 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 8 9 
+auxPos:1 2 3 4 5 6 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 3 4 5 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 3 4 5 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:3 4 5 6 
+desPos:2 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:3 4 5 6 
+desPos:1 2 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 
+auxPos:4 5 6 
+desPos:1 2 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 4 5 6 
+desPos:2 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 
+auxPos:1 4 5 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 
+auxPos:4 5 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 
+auxPos:5 6 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 
+auxPos:5 6 
+desPos:1 4 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 
+auxPos:2 5 6 
+desPos:1 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 2 5 6 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 5 6 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 5 6 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:5 6 
+desPos:2 3 4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:5 6 
+desPos:1 2 3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 8 9 
+auxPos:6 
+desPos:1 2 3 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 6 
+desPos:2 3 4 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 
+auxPos:1 6 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 
+auxPos:6 
+desPos:3 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 
+auxPos:3 6 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 
+auxPos:3 6 
+desPos:1 4 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:2 3 6 
+desPos:1 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 2 3 6 
+desPos:4 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 8 9 
+auxPos:1 2 3 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 
+auxPos:2 3 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 
+auxPos:3 6 
+desPos:2 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:3 6 
+desPos:1 2 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 8 9 
+auxPos:6 
+desPos:1 2 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:1 6 
+desPos:2 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 8 9 
+auxPos:1 6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 8 9 
+auxPos:6 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 8 9 
+auxPos:
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 8 9 
+auxPos:
+desPos:1 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:2 
+desPos:1 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 8 9 
+auxPos:1 2 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:1 2 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 8 9 
+auxPos:2 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 8 9 
+auxPos:
+desPos:2 3 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 8 9 
+auxPos:
+desPos:1 2 3 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:4 
+desPos:1 2 3 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 4 
+desPos:2 3 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 8 9 
+auxPos:1 4 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 8 9 
+auxPos:4 
+desPos:3 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 8 9 
+auxPos:3 4 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 8 9 
+auxPos:3 4 
+desPos:1 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 8 9 
+auxPos:2 3 4 
+desPos:1 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 8 9 
+auxPos:1 2 3 4 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 3 4 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 3 4 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:3 4 
+desPos:2 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:3 4 
+desPos:1 2 5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 8 9 
+auxPos:4 
+desPos:1 2 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 4 
+desPos:2 5 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 8 9 
+auxPos:1 4 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 8 9 
+auxPos:4 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 8 9 
+auxPos:
+desPos:4 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 8 9 
+auxPos:
+desPos:1 4 5 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 8 9 
+auxPos:2 
+desPos:1 4 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 8 9 
+auxPos:1 2 
+desPos:4 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:1 2 
+desPos:3 4 5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 8 9 
+auxPos:2 
+desPos:3 4 5 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 8 9 
+auxPos:
+desPos:2 3 4 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:8 9 
+auxPos:
+desPos:1 2 3 4 5 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:8 
+desPos:1 2 3 4 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 8 
+desPos:2 3 4 5 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 8 
+desPos:3 4 5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:8 
+desPos:3 4 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 8 
+desPos:4 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 8 
+desPos:1 4 5 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 8 
+desPos:1 4 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 8 
+desPos:4 5 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 9 
+auxPos:1 2 3 8 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 3 8 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:3 8 
+desPos:2 5 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:3 8 
+desPos:1 2 5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 
+auxPos:8 
+desPos:1 2 5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 8 
+desPos:2 5 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 
+auxPos:1 8 
+desPos:5 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 
+auxPos:8 
+desPos:5 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 
+auxPos:5 8 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 
+auxPos:5 8 
+desPos:1 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 
+auxPos:2 5 8 
+desPos:1 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 2 5 8 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:1 2 5 8 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 5 8 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:5 8 
+desPos:2 3 6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:5 8 
+desPos:1 2 3 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:4 5 8 
+desPos:1 2 3 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 4 5 8 
+desPos:2 3 6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 4 5 8 
+desPos:3 6 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:4 5 8 
+desPos:3 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 4 5 8 
+desPos:6 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 4 5 8 
+desPos:1 6 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 4 5 8 
+desPos:1 6 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 4 5 8 
+desPos:6 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:6 9 
+auxPos:1 2 3 4 5 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 3 4 5 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:3 4 5 8 
+desPos:2 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:3 4 5 8 
+desPos:1 2 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 
+auxPos:4 5 8 
+desPos:1 2 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 4 5 8 
+desPos:2 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 
+auxPos:1 4 5 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 
+auxPos:4 5 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 
+auxPos:5 8 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 
+auxPos:5 8 
+desPos:1 4 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 
+auxPos:2 5 8 
+desPos:1 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 2 5 8 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 5 8 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 5 8 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:5 8 
+desPos:2 3 4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:5 8 
+desPos:1 2 3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 9 
+auxPos:8 
+desPos:1 2 3 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 8 
+desPos:2 3 4 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 
+auxPos:1 8 
+desPos:3 4 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 
+auxPos:8 
+desPos:3 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 
+auxPos:3 8 
+desPos:4 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 
+auxPos:3 8 
+desPos:1 4 7 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:2 3 8 
+desPos:1 4 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 2 3 8 
+desPos:4 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 9 
+auxPos:1 2 3 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 
+auxPos:2 3 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 
+auxPos:3 8 
+desPos:2 7 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:3 8 
+desPos:1 2 7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 9 
+auxPos:8 
+desPos:1 2 7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:1 8 
+desPos:2 7 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 9 
+auxPos:1 8 
+desPos:7 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 9 
+auxPos:8 
+desPos:7 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 5 6 9 
+auxPos:7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 9 
+auxPos:7 8 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:2 7 8 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 9 
+auxPos:1 2 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:1 2 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 9 
+auxPos:2 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 9 
+auxPos:7 8 
+desPos:2 3 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 9 
+auxPos:7 8 
+desPos:1 2 3 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:4 7 8 
+desPos:1 2 3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 4 7 8 
+desPos:2 3 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 9 
+auxPos:1 4 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 9 
+auxPos:4 7 8 
+desPos:3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 9 
+auxPos:3 4 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 9 
+auxPos:3 4 7 8 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 9 
+auxPos:2 3 4 7 8 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 9 
+auxPos:1 2 3 4 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 3 4 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 3 4 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:3 4 7 8 
+desPos:2 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:3 4 7 8 
+desPos:1 2 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 9 
+auxPos:4 7 8 
+desPos:1 2 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 4 7 8 
+desPos:2 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 9 
+auxPos:1 4 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 9 
+auxPos:4 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 9 
+auxPos:7 8 
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 9 
+auxPos:7 8 
+desPos:1 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 9 
+auxPos:2 7 8 
+desPos:1 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 9 
+auxPos:1 2 7 8 
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:1 2 7 8 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 9 
+auxPos:2 7 8 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 9 
+auxPos:7 8 
+desPos:2 3 4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 9 
+auxPos:7 8 
+desPos:1 2 3 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:6 7 8 
+desPos:1 2 3 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 6 7 8 
+desPos:2 3 4 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 6 7 8 
+desPos:3 4 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:6 7 8 
+desPos:3 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 6 7 8 
+desPos:4 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 6 7 8 
+desPos:1 4 5 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 6 7 8 
+desPos:1 4 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 6 7 8 
+desPos:4 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 9 
+auxPos:1 2 3 6 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 3 6 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:3 6 7 8 
+desPos:2 5 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:3 6 7 8 
+desPos:1 2 5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 9 
+auxPos:6 7 8 
+desPos:1 2 5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 6 7 8 
+desPos:2 5 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 9 
+auxPos:1 6 7 8 
+desPos:5 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 9 
+auxPos:6 7 8 
+desPos:5 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 9 
+auxPos:5 6 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 9 
+auxPos:5 6 7 8 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 9 
+auxPos:2 5 6 7 8 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 9 
+auxPos:1 2 5 6 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:1 2 5 6 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 9 
+auxPos:2 5 6 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 9 
+auxPos:5 6 7 8 
+desPos:2 3 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 9 
+auxPos:5 6 7 8 
+desPos:1 2 3 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:4 5 6 7 8 
+desPos:1 2 3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 4 5 6 7 8 
+desPos:2 3 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 9 
+auxPos:1 4 5 6 7 8 
+desPos:3 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 9 
+auxPos:4 5 6 7 8 
+desPos:3 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 9 
+auxPos:3 4 5 6 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 9 
+auxPos:3 4 5 6 7 8 
+desPos:1 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:9 
+auxPos:2 3 4 5 6 7 8 
+desPos:1 10 11 
+
+From peg:des	 To peg:aux
+initialPos:9 
+auxPos:1 2 3 4 5 6 7 8 
+desPos:10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 5 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 5 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 5 6 7 8 
+desPos:2 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 5 6 7 8 
+desPos:1 2 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 5 6 7 8 
+desPos:1 2 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 5 6 7 8 
+desPos:2 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 5 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 5 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:5 6 7 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:5 6 7 8 
+desPos:1 4 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 5 6 7 8 
+desPos:1 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 5 6 7 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 5 6 7 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 5 6 7 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:5 6 7 8 
+desPos:2 3 4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:5 6 7 8 
+desPos:1 2 3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 
+auxPos:6 7 8 
+desPos:1 2 3 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 6 7 8 
+desPos:2 3 4 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 6 7 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:6 7 8 
+desPos:3 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 6 7 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 6 7 8 
+desPos:1 4 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 6 7 8 
+desPos:1 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 6 7 8 
+desPos:4 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 
+auxPos:1 2 3 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 3 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:3 6 7 8 
+desPos:2 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:3 6 7 8 
+desPos:1 2 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 
+auxPos:6 7 8 
+desPos:1 2 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 6 7 8 
+desPos:2 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 
+auxPos:1 6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 
+auxPos:6 7 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 
+auxPos:7 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 
+auxPos:7 8 
+desPos:1 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 
+auxPos:2 7 8 
+desPos:1 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 2 7 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:1 2 7 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 7 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:7 8 
+desPos:2 3 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:7 8 
+desPos:1 2 3 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:4 7 8 
+desPos:1 2 3 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 4 7 8 
+desPos:2 3 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 4 7 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:4 7 8 
+desPos:3 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 4 7 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 4 7 8 
+desPos:1 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 4 7 8 
+desPos:1 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 4 7 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 7 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 7 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 7 8 
+desPos:2 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 7 8 
+desPos:1 2 5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 7 8 
+desPos:1 2 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 7 8 
+desPos:2 5 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 7 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 7 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:7 8 
+desPos:4 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:7 8 
+desPos:1 4 5 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 7 8 
+desPos:1 4 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 7 8 
+desPos:4 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 7 8 
+desPos:3 4 5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 7 8 
+desPos:3 4 5 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:7 8 
+desPos:2 3 4 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:7 8 
+desPos:1 2 3 4 5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:7 
+auxPos:8 
+desPos:1 2 3 4 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 8 
+desPos:2 3 4 5 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 8 
+desPos:3 4 5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:8 
+desPos:3 4 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 8 
+desPos:4 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 8 
+desPos:1 4 5 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 8 
+desPos:1 4 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 8 
+desPos:4 5 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 
+auxPos:1 2 3 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 3 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:3 8 
+desPos:2 5 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:3 8 
+desPos:1 2 5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 
+auxPos:8 
+desPos:1 2 5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 8 
+desPos:2 5 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 
+auxPos:1 8 
+desPos:5 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 
+auxPos:8 
+desPos:5 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 
+auxPos:5 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 
+auxPos:5 8 
+desPos:1 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 
+auxPos:2 5 8 
+desPos:1 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 2 5 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:1 2 5 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 5 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:5 8 
+desPos:2 3 6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:5 8 
+desPos:1 2 3 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:4 5 8 
+desPos:1 2 3 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 4 5 8 
+desPos:2 3 6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 4 5 8 
+desPos:3 6 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:4 5 8 
+desPos:3 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 4 5 8 
+desPos:6 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 4 5 8 
+desPos:1 6 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 4 5 8 
+desPos:1 6 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 4 5 8 
+desPos:6 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:6 7 
+auxPos:1 2 3 4 5 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 3 4 5 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:3 4 5 8 
+desPos:2 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:3 4 5 8 
+desPos:1 2 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 
+auxPos:4 5 8 
+desPos:1 2 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 4 5 8 
+desPos:2 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 
+auxPos:1 4 5 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 
+auxPos:4 5 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 
+auxPos:5 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 
+auxPos:5 8 
+desPos:1 4 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 
+auxPos:2 5 8 
+desPos:1 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 2 5 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 5 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 5 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:5 8 
+desPos:2 3 4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:5 8 
+desPos:1 2 3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 6 7 
+auxPos:8 
+desPos:1 2 3 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 8 
+desPos:2 3 4 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 
+auxPos:1 8 
+desPos:3 4 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 
+auxPos:8 
+desPos:3 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 
+auxPos:3 8 
+desPos:4 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 
+auxPos:3 8 
+desPos:1 4 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:2 3 8 
+desPos:1 4 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 2 3 8 
+desPos:4 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 6 7 
+auxPos:1 2 3 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 
+auxPos:2 3 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 
+auxPos:3 8 
+desPos:2 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:3 8 
+desPos:1 2 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 6 7 
+auxPos:8 
+desPos:1 2 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:1 8 
+desPos:2 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 6 7 
+auxPos:1 8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 6 7 
+auxPos:8 
+desPos:9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 6 7 
+auxPos:
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 6 7 
+auxPos:
+desPos:1 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:2 
+desPos:1 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 6 7 
+auxPos:1 2 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:1 2 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 6 7 
+auxPos:2 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 6 7 
+auxPos:
+desPos:2 3 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 6 7 
+auxPos:
+desPos:1 2 3 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:4 
+desPos:1 2 3 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 4 
+desPos:2 3 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 6 7 
+auxPos:1 4 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 6 7 
+auxPos:4 
+desPos:3 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 6 7 
+auxPos:3 4 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 6 7 
+auxPos:3 4 
+desPos:1 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 6 7 
+auxPos:2 3 4 
+desPos:1 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 6 7 
+auxPos:1 2 3 4 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 3 4 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 3 4 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:3 4 
+desPos:2 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:3 4 
+desPos:1 2 5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 6 7 
+auxPos:4 
+desPos:1 2 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 4 
+desPos:2 5 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 6 7 
+auxPos:1 4 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 6 7 
+auxPos:4 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 6 7 
+auxPos:
+desPos:4 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 6 7 
+auxPos:
+desPos:1 4 5 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 6 7 
+auxPos:2 
+desPos:1 4 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 6 7 
+auxPos:1 2 
+desPos:4 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:1 2 
+desPos:3 4 5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 6 7 
+auxPos:2 
+desPos:3 4 5 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 6 7 
+auxPos:
+desPos:2 3 4 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:6 7 
+auxPos:
+desPos:1 2 3 4 5 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:6 
+desPos:1 2 3 4 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 6 
+desPos:2 3 4 5 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 6 
+desPos:3 4 5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:6 
+desPos:3 4 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 6 
+desPos:4 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 6 
+desPos:1 4 5 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 6 
+desPos:1 4 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 6 
+desPos:4 5 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 7 
+auxPos:1 2 3 6 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 3 6 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:3 6 
+desPos:2 5 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:3 6 
+desPos:1 2 5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 7 
+auxPos:6 
+desPos:1 2 5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 6 
+desPos:2 5 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 7 
+auxPos:1 6 
+desPos:5 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 7 
+auxPos:6 
+desPos:5 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 3 4 7 
+auxPos:5 6 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 7 
+auxPos:5 6 
+desPos:1 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 7 
+auxPos:2 5 6 
+desPos:1 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 7 
+auxPos:1 2 5 6 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:1 2 5 6 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 7 
+auxPos:2 5 6 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 7 
+auxPos:5 6 
+desPos:2 3 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 7 
+auxPos:5 6 
+desPos:1 2 3 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:4 5 6 
+desPos:1 2 3 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 4 5 6 
+desPos:2 3 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 7 
+auxPos:1 4 5 6 
+desPos:3 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 7 
+auxPos:4 5 6 
+desPos:3 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 7 
+auxPos:3 4 5 6 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 7 
+auxPos:3 4 5 6 
+desPos:1 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:7 
+auxPos:2 3 4 5 6 
+desPos:1 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:7 
+auxPos:1 2 3 4 5 6 
+desPos:8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 5 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 5 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 5 6 
+desPos:2 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 5 6 
+desPos:1 2 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 5 6 
+desPos:1 2 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 5 6 
+desPos:2 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 5 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 5 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:5 6 
+desPos:4 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:5 6 
+desPos:1 4 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 5 6 
+desPos:1 4 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 5 6 
+desPos:4 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 5 6 
+desPos:3 4 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 5 6 
+desPos:3 4 7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:5 6 
+desPos:2 3 4 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:5 6 
+desPos:1 2 3 4 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:5 
+auxPos:6 
+desPos:1 2 3 4 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 6 
+desPos:2 3 4 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 6 
+desPos:3 4 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:6 
+desPos:3 4 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 6 
+desPos:4 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 6 
+desPos:1 4 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 6 
+desPos:1 4 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 6 
+desPos:4 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:4 5 
+auxPos:1 2 3 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 3 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:3 6 
+desPos:2 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:3 6 
+desPos:1 2 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 4 5 
+auxPos:6 
+desPos:1 2 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 6 
+desPos:2 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 4 5 
+auxPos:1 6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 4 5 
+auxPos:6 
+desPos:7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 4 5 
+auxPos:
+desPos:6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 4 5 
+auxPos:
+desPos:1 6 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 4 5 
+auxPos:2 
+desPos:1 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 4 5 
+auxPos:1 2 
+desPos:6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:1 2 
+desPos:3 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 4 5 
+auxPos:2 
+desPos:3 6 7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 4 5 
+auxPos:
+desPos:2 3 6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:4 5 
+auxPos:
+desPos:1 2 3 6 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:4 
+desPos:1 2 3 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 4 
+desPos:2 3 6 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 5 
+auxPos:1 4 
+desPos:3 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 5 
+auxPos:4 
+desPos:3 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:1 2 5 
+auxPos:3 4 
+desPos:6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 5 
+auxPos:3 4 
+desPos:1 6 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:5 
+auxPos:2 3 4 
+desPos:1 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:5 
+auxPos:1 2 3 4 
+desPos:6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 3 4 
+desPos:5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 3 4 
+desPos:5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:3 4 
+desPos:2 5 6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:3 4 
+desPos:1 2 5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:3 
+auxPos:4 
+desPos:1 2 5 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 4 
+desPos:2 5 6 7 8 9 10 11 
+
+From peg:des	 To peg:initial
+initialPos:2 3 
+auxPos:1 4 
+desPos:5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 2 3 
+auxPos:4 
+desPos:5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 2 3 
+auxPos:
+desPos:4 5 6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:2 3 
+auxPos:
+desPos:1 4 5 6 7 8 9 10 11 
+
+From peg:initial	 To peg:aux
+initialPos:3 
+auxPos:2 
+desPos:1 4 5 6 7 8 9 10 11 
+
+From peg:des	 To peg:aux
+initialPos:3 
+auxPos:1 2 
+desPos:4 5 6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:1 2 
+desPos:3 4 5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:initial
+initialPos:1 
+auxPos:2 
+desPos:3 4 5 6 7 8 9 10 11 
+
+From peg:aux	 To peg:des
+initialPos:1 
+auxPos:
+desPos:2 3 4 5 6 7 8 9 10 11 
+
+From peg:initial	 To peg:des
+initialPos:
+auxPos:
+desPos:1 2 3 4 5 6 7 8 9 10 11 
+
