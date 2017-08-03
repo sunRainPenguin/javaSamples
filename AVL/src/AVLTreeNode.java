@@ -72,6 +72,7 @@ public class AVLTreeNode {
 		Runtime runtime = Runtime.getRuntime(); 
 		String[] cmd1 = {"D:\\Graphviz2.38\\bin\\dot.exe","graph.dot","-Tpng","-o",pngName};
 		runtime.exec(cmd1);
+		writer.close();
 	}
 	
 	

@@ -1,8 +1,0 @@
-digraph g{
-10->6[color=red]
-6->4[color=red]
-6->9
-9->7[color=red]
-10->16
-16->13[color=red]
-}

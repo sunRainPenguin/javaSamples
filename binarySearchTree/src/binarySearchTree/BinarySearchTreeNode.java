@@ -51,6 +51,7 @@ public class BinarySearchTreeNode {
 		stringBuffer.append("}\n");
 		writer.write(stringBuffer.toString());
 		writer.flush();
+		writer.close();
 	}
 	
 	/**
