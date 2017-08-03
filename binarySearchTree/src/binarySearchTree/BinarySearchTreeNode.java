@@ -64,7 +64,7 @@ public class BinarySearchTreeNode {
 		}
 		StringBuffer stringBuffer = new StringBuffer();
 		if(root.getLeft()!=null) {
-			stringBuffer.append(root.getData() + "->" + root.getLeft().getData() + "[color=\"#DDBCBC\"]\n");
+			stringBuffer.append(root.getData() + "->" + root.getLeft().getData() + "[color=red]\n");
 			stringBuffer.append(traverseTree(root.getLeft()));
 		}
 		if(root.getRight()!=null) {
@@ -127,31 +127,32 @@ public class BinarySearchTreeNode {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		BinarySearchTreeNode n10 = new BinarySearchTreeNode(10);
-		BinarySearchTreeNode n6 = new BinarySearchTreeNode(6);
-		BinarySearchTreeNode n16 = new BinarySearchTreeNode(16);
-		BinarySearchTreeNode n4 = new BinarySearchTreeNode(4);
-		BinarySearchTreeNode n9 = new BinarySearchTreeNode(9);
-		BinarySearchTreeNode n13 = new BinarySearchTreeNode(13);
-		BinarySearchTreeNode n7 = new BinarySearchTreeNode(7);
-		n10.setLeft(n6);
-		n10.setRight(n16);
-		n6.setLeft(n4);
-		n6.setRight(n9);
-		n9.setLeft(n7);
-		n16.setLeft(n13);
-		printTree(n10);
+//		BinarySearchTreeNode n10 = new BinarySearchTreeNode(10);
+//		BinarySearchTreeNode n6 = new BinarySearchTreeNode(6);
+//		BinarySearchTreeNode n16 = new BinarySearchTreeNode(16);
+//		BinarySearchTreeNode n4 = new BinarySearchTreeNode(4);
+//		BinarySearchTreeNode n9 = new BinarySearchTreeNode(9);
+//		BinarySearchTreeNode n13 = new BinarySearchTreeNode(13);
+//		BinarySearchTreeNode n7 = new BinarySearchTreeNode(7);
+//		n10.setLeft(n6);
+//		n10.setRight(n16);
+//		n6.setLeft(n4);
+//		n6.setRight(n9);
+//		n9.setLeft(n7);
+//		n16.setLeft(n13);
+		BinarySearchTreeNode root = insert(null,10);
+		root = insert(root,6);
+		root = insert(root,16);
+		root = insert(root,4);
+		root = insert(root,9);
+		root = insert(root,13);
+		root = insert(root,7);
+		
+		printTree(root);
 		Runtime runtime = Runtime.getRuntime(); 
 		String[] cmd1 = {"D:\\Graphviz2.38\\bin\\dot.exe","graph.dot","-Tpng","-o","example3.png"};
 		runtime.exec(cmd1);
 		
-//		BinarySearchTreeNode result = find(n10,9);
-//		System.out.println(result.getData() + " " + result.getLeft().getData() );
-//		
-		BinarySearchTreeNode result = insert(n10, 5);
-		System.out.println(result.getData() + " " + result.getLeft().getData() );
-		printTree(n10);
-		String[] cmd2 = {"D:\\Graphviz2.38\\bin\\dot.exe","graph.dot","-Tpng","-o","example4.png"};
-		runtime.exec(cmd2);
+
 	}
 }

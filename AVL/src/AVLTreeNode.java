@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.Writer;
 
 
+
 public class AVLTreeNode {
 	private int data;
 	private int height;
@@ -39,18 +40,18 @@ public class AVLTreeNode {
 	}
 	
 	/**
-	 * 计算root为根结点的树的高度
+	 * 计算root为根结点的树的高度，一个结点高度为0
 	 * @param root
 	 * @return
 	 */
 	private static int Height(AVLTreeNode root) {
 		if(root==null) {
-			return 0;
+			return -1;
 		}
 		else {
-			int newH = Math.max(Height(root.getLeft()), Height(root.getRight()))+1;
+//			int newH = Math.max(Height(root.getLeft()), Height(root.getRight()))+1;
 //			root.setHeight(newH);	//在对相应的结点高度变化时，直接在变化的位置使用setHeight
-			return newH;
+			return root.getHeight();
 		}
 	}
 	
@@ -86,7 +87,7 @@ public class AVLTreeNode {
 		}
 		StringBuffer stringBuffer = new StringBuffer();
 		if(root.getLeft()!=null) {
-			stringBuffer.append(root.getData() + "->" + root.getLeft().getData() + "[color=\"#DDBCBC\"]\n");
+			stringBuffer.append(root.getData() + "->" + root.getLeft().getData() + "[color=red]\n");
 			stringBuffer.append(traverseTree(root.getLeft()));
 		}
 		if(root.getRight()!=null) {
@@ -126,6 +127,64 @@ public class AVLTreeNode {
 		return x;
 	}
 	
+	/**
+	 * LR旋转
+	 * @param z
+	 * @return
+	 */
+	private static AVLTreeNode doubleRotatewithLeft(AVLTreeNode z) {
+		z.setLeft(singleRotateRight(z.getLeft()));
+		return singleRotateLeft(z);
+	}
+	
+	/**
+	 * RL旋转
+	 * @param z
+	 * @return
+	 */
+	private static AVLTreeNode doubleRotatewithRight(AVLTreeNode z) {
+		z.setRight(singleRotateLeft(z.getRight()));
+		return singleRotateRight(z);
+	}
+	
+	/**
+	 * 在根结点为root的树中插入值data
+	 * @param root
+	 * @param data
+	 * @return
+	 */
+	private static AVLTreeNode insert(AVLTreeNode root,int data) {
+		if(root==null) {
+			root = new AVLTreeNode(data);
+			root.setHeight(0);	// 假设只有一个结点时，树高为0
+			root.setLeft(null);
+			root.setRight(null);
+		}
+		else if(data<root.getData()) {
+			root.setLeft(insert(root.getLeft(),data));
+			if(Height(root.getLeft())-Height(root.getRight()) == 2) {
+				 if(data<root.getLeft().getData()) {
+					 root = singleRotateLeft(root);
+				 }
+				 else {
+					 root = doubleRotatewithLeft(root);
+				 }
+			}
+		}
+		else if(data>root.getData()) {
+			root.setRight(insert(root.getRight(),data));
+			if(Height(root.getRight())-Height(root.getLeft()) == 2) {
+				if(data>root.getRight().getData()) {
+					root = singleRotateRight(root);
+				}
+				else {
+					root = doubleRotatewithRight(root);
+				}
+			}
+		}
+		root.setHeight(Math.max(Height(root.getLeft()), Height(root.getRight()))+1);
+		return root;
+	}
 	
 	/**
 	 * main函数
@@ -133,17 +192,24 @@ public class AVLTreeNode {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		AVLTreeNode n6 = new AVLTreeNode(6);
-		AVLTreeNode n5 = new AVLTreeNode(5);
-		AVLTreeNode n3 = new AVLTreeNode(3);
-		AVLTreeNode n8 = new AVLTreeNode(8);
-		AVLTreeNode n7 = new AVLTreeNode(7);
-		AVLTreeNode n9 = new AVLTreeNode(9);
-		n6.setLeft(n5);
-		n5.setLeft(n3);
-		n6.setRight(n8);
-		n8.setLeft(n7);
-		n8.setRight(n9);
-		printTree(n6, "png1");
+//		AVLTreeNode n6 = new AVLTreeNode(6);
+//		AVLTreeNode n5 = new AVLTreeNode(5);
+//		AVLTreeNode n3 = new AVLTreeNode(3);
+//		AVLTreeNode n8 = new AVLTreeNode(8);
+//		AVLTreeNode n7 = new AVLTreeNode(7);
+//		AVLTreeNode n9 = new AVLTreeNode(9);
+//		n6.setLeft(n5);
+//		n5.setLeft(n3);
+//		n6.setRight(n8);
+//		n8.setLeft(n7);
+//		n8.setRight(n9);
+// 不能按照以上方式插入树，因为这样就无法更新height
+		AVLTreeNode root = insert(null,6);
+		root = insert(root,4);
+		root = insert(root,2);
+		root = insert(root,5);
+		root = insert(root,7);
+		root = insert(root,8);
+		printTree(root, "png1");
 	}
 }

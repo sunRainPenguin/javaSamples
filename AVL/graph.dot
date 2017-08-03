@@ -1,7 +1,7 @@
 digraph g{
-6->5[color="#DDBCBC"]
-5->3[color="#DDBCBC"]
-6->8
-8->7[color="#DDBCBC"]
-8->9
+6->4[color=red]
+4->2[color=red]
+4->5
+6->7
+7->8
 }
