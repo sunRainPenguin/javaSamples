@@ -8,7 +8,6 @@ public class InffixToSuffix {
 //	String patternOperator = "(\\*|\\-|\\+|/)";
 	private static HashMap<Character, Integer> priMap = new HashMap<Character,Integer>(){
 		{
-		put('(',0);
 		put('+',1);
 		put('-',1);
 		put('*',2);
@@ -46,11 +45,11 @@ public class InffixToSuffix {
 				if(stack.isEmpty()) {
 					stack.push(ch);
 				}
-				else if(priMap.get(ch)>priMap.get(stack.peek())) {
+				else if(stack.peek().equals('(') || priMap.get(ch)>priMap.get(stack.peek())) {
 					stack.push(ch);
 				}
 				else {
-					while(!stack.isEmpty() && priMap.get(ch)<=priMap.get(stack.peek())) {
+					while(!stack.isEmpty() && stack.peek()!='('&&priMap.get(ch)<=priMap.get(stack.peek())) {
 						 strBuff.append(stack.pop());
 					}
 					stack.push(ch);
